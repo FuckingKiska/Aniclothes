@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf8">
+		<title>Aniclothes</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html" class="logo"><img src="img/logo.svg" alt="Aniclothes" id="start" width="150" height="50"></a>
+			<div class="dropdown">
+				<button class="dropbtn">МЕНЮ</button>
+				<div class="dropdown-content">
+					<a href="consultations.html">Консультанты</a>
+					<a href="about.html">О нас</a>
+					<a href="#tovari">Товары</a>
+				</div>
+			</div>
+			<div class="btn">
+				<a href="#" 					class="btn_number">8(912)-147-91-57</a>
+			</div>
+		</header>
+
+		<h2>Наши преимущества</h2>
+		<section id="slider_bl">
+			<div class="wrapper">
+				<input checked type=radio name="slider" id="slide1" />
+				<input type=radio name="slider" id="slide2" />
+				<input type=radio name="slider" id="slide3" />
+				<input type=radio name="slider" id="slide4" />
+				<div class="slider-wrapper">
+					<div class=inner>
+						<article>
+							<div class="info top-left">
+							</div>
+							<img src="img/placeh-older.png" />
+						</article>
+						<article>
+							<div class="info bottom-right">
+							</div>
+							<img src="img/piggi-bank.png" />
+						</article>
+						<article>
+							<div class="info bottom-left">
+							</div>
+							<img src="img/glasses.png" />
+						</article>
+						<article>
+							<div class="info top-right">
+							</div>
+							<img src="img/pie-chart.png" />
+						</article>
+					</div>
+				</div>
+				<div class="slider-prev-next-control">
+					<label for=slide1></label>
+					<label for=slide2></label>
+					<label for=slide3></label>
+					<label for=slide4></label>
+				</div>
+				<div class="slider-dot-control">
+					<label for=slide1></label>
+					<label for=slide2></label>
+					<label for=slide3></label>
+					<label for=slide4></label>
+				</div>
+			</div>
+		</section>
+
+		<div class="block-brend">
+			<img src="img/free-icon-adidas-731962.svg" alt="" width="100px" height="100px">
+			<img src="img/Asics_logo-1.svg" alt="" width="170" height="100">
+			<img src="img/Tommy-Hilfiger-Emblem.svg" alt="" width="140" height="100">
+			<img src="img/logo-oysho.svg" alt="" width="300" height="100">
+		</div>
+		
+		<div class="filter" id="tovari">
+			<input type="radio" id="blue" name="color" />
+			<label for="blue">ФИГУРКИ</label>
+			<input type="radio" id="red" name="color" />
+			<label for="red">ОДЕЖДА</label>
+			<input type="radio" id="green" name="color" />
+			<label for="green">БРЕЛКИ</label>
+			<input type="radio" id="reset" name="color" />
+			<label for="reset">ПЕРЕМЕШАТЬ</label>
+		
+			<div class="tile blue pic1">1</div>
+			<div class="tile red pic2">2</div>
+			<div class="tile blue pic3">3</div>
+			<div class="tile green pic4">4</div>
+			<div class="tile blue pic5">5</div>
+			<div class="tile red pic6">6</div>
+			<div class="tile red pic7">7</div>
+			<div class="tile green pic8">8</div>
+			<div class="tile blue pic9">9</div>
+			<div class="tile green pic10">10</div>
+			<div class="tile red pic11">11</div>
+			<div class="tile green pic12">12</div>
+			<div class="tile blue pic13">13</div>
+			<div class="tile blue pic14">14</div>
+			<div class="tile green pic15">15</div>
+			<div class="tile red pic16">16</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<form action="action_page.php">
+			<div class="container">
+				<h2>Подпишитесь на наши новости</h2>
+			</div>
+		
+			<div class="container">
+				<input type="text" placeholder="Введите имя" name="name" required>
+				<input type="text" placeholder="Введите адресс почты" name="mail" required>
+				<label>
+					<input type="checkbox" checked="checked" name="subscribe"> Ежедневная рассылка
+				</label>
+			</div>
+		
+			<div class="container">
+				<input type="submit" value="Subscribe">
+			</div>
+		</form>
+
+		<a href="#start" class="up">Наверх</a>
+
+		<footer class="footer">
+			<div class="help">
+				<h4>Помошь</h4>
+				<a href="" class="consultants">Наши консультанты</a>
+			</div>
+			<div class="about">
+				<h4>О нас</h4>
+				<a href="" class="information">Блок информации о нас</a>
+			</div>
+			<div class="oplata">
+				<h4>Способы оплаты</h4>
+				<img src="img/Visa_2014.svg.png" alt="" width="100" height="50">
+			</div>
+		</footer>
+		<!--Libs-->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	</body>
+</html>
